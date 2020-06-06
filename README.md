@@ -1,2 +1,3 @@
-# prueba
-pruebas en github
+# Mi primer repositorio
+
+Mi primera prueba en github
