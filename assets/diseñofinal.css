@@ -1,0 +1,24 @@
+
+
+
+body {
+    background: whitesmoke;
+    font-size: 15px;
+
+}
+
+
+
+.wrapper {
+    display: grid;
+    grid-gap: 20px;
+  }
+
+/* Navigation */
+
+.menu ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+  
+ 
