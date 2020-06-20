@@ -1,24 +1,112 @@
 
 
-
 body {
-    background: whitesmoke;
-    font-size: 15px;
+  font-family: 'Alegreya Sans', sans-serif;;
+}
+
+
+/* Navigation */      
+
+.hero {
+  max-width: 100%;
+  height: 70vh;
+  padding: 60px 0;
+	position: relative;
+  background-image: url("https://image.freepik.com/vector-gratis/numeros-codigo-binario-futurista-fondo-datos-digitales_1017-25334.jpg");
+  background-position: center;
+	background-size: cover;
+}
+
+/* Capa de Opacidad de la imagen*/
+.hero:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(
+		90deg,
+		rgba(52,57,62,.5),	
+		rgba(52,57,62,.5)
+	);
+}
+
+.hero .wrap {
+	max-width: 1000px;
+	margin: 0 auto;
+	height: 100%;
+	display: grid;
+  justify-content: top;
+}
+
+
+.hero .wrap .box {
+	z-index: 2;
 
 }
 
 
 
-.wrapper {
-    display: grid;
-    grid-gap: 20px;
-  }
-
-/* Navigation */
+/* -------------------*/
 
 .menu ul {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 10px;
+    margin: 10px;
+    padding: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    list-style: none;
+
   }
-  
+
+.menu a {
+    display: block;
+    border: solid;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+
+  }
  
+  /*section presentacion*/
+.presentacion {
+  margin: 25px;
+  display: grid;
+  text-align: center;
+  color: white;
+
+}
+
+
+
+
+  /* FOOTER */
+
+  .footercompleto {
+    display: grid;
+    height: 200px;
+    width: 100%;
+    position: bottom;
+    margin: 0;
+    background-color: black; 
+    background-size: 100%;
+    color:white;
+  }
+
+
+  .cajapie1{
+    padding-top: 50px;
+    align-items: center;
+    text-align: center;
+    line-height: 10px;
+
+  }
+
+  .cajapie2 {
+    padding: 20px;
+    text-align: center;
+  }
