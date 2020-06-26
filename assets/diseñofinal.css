@@ -5,7 +5,7 @@ body {
 }
 
 
-/* Navigation */      
+/* HEADER */      
 
 .hero {
   max-width: 100%;
@@ -40,15 +40,11 @@ body {
   justify-content: top;
 }
 
-
 .hero .wrap .box {
 	z-index: 2;
-
 }
 
-
-
-/* -------------------*/
+/*--NAVEGADOR ---*/
 
 .menu ul {
     display: grid;
@@ -72,16 +68,52 @@ body {
 
   }
  
-  /*section presentacion*/
-.presentacion {
-  margin: 25px;
+  /*PRESENTACIÓN*/
+.portada {
   display: grid;
-  text-align: center;
+  float: inline-start;
+  grid-template-columns: 50px, 50px;
+  color: white;
+}
+
+.portada .encabezado {
+  background-color: aqua;
+  border: 5px;
+  margin: 25px;
   color: white;
 
 }
 
+.portada .presentacion {
+  background-color: gray;
+  border: 5px;
+  margin: 25px;
+  
 
+}
+
+
+  /* SERVICIOS */
+
+
+
+
+
+  /* FORMULARIO DE CONTACTO */
+.formulario {
+  margin: 10px;
+  display: flex;
+  height: 300px;
+  background-color: aqua;
+}
+
+.cajaformulario {
+  margin: inherit;
+  padding: 10px;
+  justify-items: center;
+  background-color: black;
+  color: aliceblue;
+}
 
 
   /* FOOTER */
@@ -90,13 +122,13 @@ body {
     display: grid;
     height: 200px;
     width: 100%;
-    position: bottom;
+    position: -webkit-sticky;
     margin: 0;
+    padding: 0;
     background-color: black; 
     background-size: 100%;
     color:white;
   }
-
 
   .cajapie1{
     padding-top: 50px;
