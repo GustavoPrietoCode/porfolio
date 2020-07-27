@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/normalize.css">
     <link rel="stylesheet" href="assets/diseñofinal.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet"> 
     <title>Gustavo Prieto Desarrollador web</title>
 </head>
 <body>
@@ -20,7 +21,7 @@
                     <a href="">INICIO</a>
                   </li>
                   <li>
-                    <a href="#pricing">SERVICIOS</a>
+                    <a href="#todosservicios">SERVICIOS</a>
                   </li>
                   <li>
                     <a href="">PORFOLIO</a>
@@ -29,21 +30,21 @@
                     <a href="">BLOG</a>
                   </li>
                   <li>
-                    <a href="">CONTACTO</a>
+                    <a href="#contacta">CONTACTO</a>
                   </li>
                 </ul>
               </nav>
               <div class="portada"> 
                 <div class="encabezado">
-                  <h1> &ltDesarrollador Web&gt</h1>
-                  <p>Wordpress</p>
+                  <h2> &ltWeb desarrollada en HTML y CSS&gt</h2>
                 </div>
                 <div class="presentacion">
                     <div>
-                        <figure>
+                     <!--   <figure>
                           <img src="material/Gus BN.jpg" alt="Gustavo">
-                      </figure>
-                        <p>Gustavo (Valladolid)</p>
+                      </figure> -->
+                        <h2>&ltGustavo Prieto&gt</h2>
+                        <p>&ltDesarrollador Web&gt</p>
                       <div class="bio">
                       </div>
                     </div>
@@ -56,11 +57,11 @@
 </header>
      <!--SERVICIOS -->
 
-  <section class="servicios">
-    <h2>SERVICIOS</h2>
-        <section id="cajasservicios">
+  <section class="servicios" id="todosservicios">
+    <h2 class="tituloprincipal">&ltSERVICIOS&gt</h2>
+        <div class="trescajas">
           <div class="cajaservicios" id="desarrollo">
-            <h2 class="tituloservicios">DESARROLLO</h2>
+            <h2 class="tituloservicios">&ltDESARROLLO&gt</h2>
             <ol>
               <li>Creamos el branding completo de tu marca.</li>
               <li>Diseñamos la web que refleje tu estilo</li>
@@ -69,7 +70,7 @@
           </div>
 
           <div class="cajaservicios" id="mantenimiento">
-            <h2 class="tituloservicios">MANTENIMIENTO</h2>
+            <h2 class="tituloservicios">&ltMANTENIMIENTO&gt</h2>
             <ol>
               <li>Te ayudo a mantener tu página siempre a punto</li>
               <li>Actualización de versiones, revisión de seguridad y rendimiento</li>
@@ -77,36 +78,34 @@
             <button class=btn>Conoce más</button>
           </div>
 
-          <div class="cajaservicios" id="mantenimiento">
-            <h2 class="tituloservicios">PUESTA EN MARCHA</h2>
+          <div class="cajaservicios" id="puestamarcha">
+            <h2 class="tituloservicios">&ltPUESTA EN MARCHA&gt</h2>
             <ol>
               <li>Instalación Wordpress para que crees tu web por ti mismo.</li>
               <li>Incluimos los plugins más importantes.</li>
             </ol>
             <button class=btn>Conoce más</button>
           </div>
-
-        </section>
-
+        </div>
   </section>
 
        <!--PORFOLIO -->
 
        <!--FORMULARIO CONTACTO -->
 
-<section class="formulario">
+<section class="formulario" id="contacta">
   <div class="cajaformulario">
     <h2 class="tituloform">Contacta</h2>
       <form id="form">
 
         <div class="form-group">
-          <label id="name-label" for="name">Nombre</label>
+          <p id="name-label" for="name">Nombre</p>
           <input type="name" name="nombre" id="nombre" class="form-control"
           placeholder="Escribe tu nombre" required>
         </div>
 
         <div class="form-group">
-          <label id="email-label" for="email">Email</label>
+          <p id="email-label" for="email">Email</p>
           <input type="email" name="Email" id="Email" class="form-control"
           placeholder="Escribe tu email" required>
         </div>
@@ -126,16 +125,15 @@
 
      <!--FOOTER -->
 
-<footer>
-  <section class="footercompleto">
+<footer class="footercompleto">
       <div class="cajapie1">
         <h1>&ltGustavo Prieto&gt</h1>
-        <p>Desarrollador web</p>
+        <p>Desarrollador web junior</p>
       </div>
       <div class="cajapie2">
         <p>contacto</p>
       </div>
-    </section>
+    
 </footer>
 
 </body>
